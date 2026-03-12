@@ -1,6 +1,6 @@
 HTML - Hyper Text markup Language  <body> content </body>
 
-self closing tags - Hr, meta, br, img
+self closing tags - Hr, meta, br, img, input
 
 ==> To Create a Web page
 ==> It is not a Programming Language
@@ -24,3 +24,16 @@ self closing tags - Hr, meta, br, img
 8) List - ordered list(ol) and Unordered list(ul)
 
 9) Tables - tr, th and td
+
+10) Forms - label, input, placeholder, required, button, type(Important), fieldset, legend
+
+11) Media Elemets - Video and audio
+
+12) Semantic tags - Header, footer, section, main and nav
+
+13) Division - div
+
+       div                                 section
+1.  No meaning                       Semantic Section page
+2.  Styling/ Layout                  Organizing content
+3.  less Meaningful (SEO)            Better for SEO  
