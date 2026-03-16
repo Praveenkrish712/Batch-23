@@ -1,6 +1,6 @@
 HTML - Hyper Text markup Language  <body> content </body>
 
-self closing tags - Hr, meta, br, img, input
+self closing tags - Hr, meta, br, img, input, link
 
 ==> To Create a Web page
 ==> It is not a Programming Language
@@ -37,3 +37,30 @@ self closing tags - Hr, meta, br, img, input
 1.  No meaning                       Semantic Section page
 2.  Styling/ Layout                  Organizing content
 3.  less Meaningful (SEO)            Better for SEO  
+
+
+
+CSS - Cascading Style Sheet
+==> it is used to style and design a web page
+==> CSS works together with HTML
+==> Change the text, color, background
+==> to set the Image and design a Layout
+==> Adding a Animation and Transition
+
+1) Types of CSS
+i - Inline CSS
+ii - Internal CSS
+iii - External CSS
+Inline > Internal > External
+
+2) CSS synatx
+Selector{
+       property: value;
+}
+
+3) Types of Selector
+i - Elemets Selector - (h1) (h2) (p)
+ii - class Selector - (.) - multiple - no of times we can use the same class name
+iii - id Selector - (#) - unique - only one time we can use the same id name
+iv - universal Selector - (*) - give some style it will apply to the entire site
+v - Group Selector - Class or id name contains different tags, in that tags we want to Change the same style means we can go with Group Selector
