@@ -1,10 +1,22 @@
 *{
     /* background-color: gray; */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
-/* 
+
 h1{
     color: red;
-} */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 1px;
+    letter-spacing: 10px;
+}
 
 /* h2{
     color: blue;
@@ -20,5 +32,31 @@ h1{
 #Lang > h4,
 #Lang > h5,
 #Lang > p{
-    color: salmon;
+    color: #0ac94a;
+}
+
+p{
+    /* background-color: yellow; */
+    background-image: url(./Assets/7d9fe97137c6c8dadd1caa996ce71ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: gray;
+    opacity: 1;
+}
+
+.Container{
+    width: 13rem;
+    height: 13rem;
+    background-color: red;
+    /* padding-left: 20px;
+    padding-top: 50px; */
+    padding: 50px 0 0 20px;
+    /* border-right: 20px solid black;
+    border-bottom: 30px solid greenyellow; */
+    border: 10px solid blue;
+    /* margin-left: 100px;
+    margin-top: 150px; */
+    /* margin: 30px 50px 70px 90px; */
+    border-radius: 50px;
 }
