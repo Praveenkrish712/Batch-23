@@ -97,3 +97,21 @@ ii - Relative - using position Relative to be set the limit like left,right,bott
 iii - Absolute - Absolute can search the non-Static parent, once reach the non-static parent it will act as a same Relative, oterwise it will search one more..... there is no non-static means it will directly go to the root(body) to the web site
 iv - fixed - to be fixed to the place
 v - Sticky - using top:0 once reach the top:0 it will act asa a same fixed 
+
+8) Display - flexbox and grid
+
+        flexbox                            grid
+ 1.  One dimensional Layout        two dimensional Layout    
+ 2.  Row or column                   row and column
+ 3.  Best for small componenents   Best for full page Layout
+         Ex:navbar,cards              Ex:Section, dashbords
+
+i - Using Display:flex (column into row)   
+ii - flex direction - row, row-reverse, column, column-reverse  
+iii - justify content (X) - start, center, end, space-Around, space-evenly, space-between  
+iv - align items (Y) (set the height) - start, center, end
+v - Gap - to be set the value
+vi - flex wrap - nowrap, wrap, wrap-reverse
+vii - align content (Y) (set the height) (flex wrap is enable) - start, center, end, space-Around, space-evenly, space-between 
+viii - flex on item - flex:1,2,3
+ix - order - Change the visual order of the property
