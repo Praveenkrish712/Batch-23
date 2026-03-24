@@ -35,15 +35,15 @@ h1{
     color: #0ac94a;
 }
 
-p{
-    /* background-color: yellow; */
+/* p{
+    background-color: yellow;
     background-image: url(./Assets/7d9fe97137c6c8dadd1caa996ce71ba1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: gray;
     opacity: 1;
-}
+} */
 
 .Container{
     width: 13rem;
@@ -156,4 +156,83 @@ p{
     width: 100px;
     height: 100px;
     background-color: darkorange;
+}
+
+.para{
+    padding: 20px;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    grid-template-rows: repeat(3,400px);
+}
+
+.item{
+    background-color: green;
+    font-size: 50px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3,1fr);
+    /* row-gap: 20px;
+    column-gap: 40px; */
+    gap: 20px;
+}
+
+.items1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: span 3;
+}
+
+.items2{
+    grid-row: span 3;
+}
+
+.layout > div{
+    border: 1px solid black;
+    background-color: #ebabac;
+    font-size: 50px;
+    font-weight: bold;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "z z z z"
+    "sb1 m m sb2"
+    "f f f f";
+}
+
+.header{
+    grid-area: z;
+}
+
+.Footer{
+    grid-area: f;
+}
+
+.Sidebar1{
+    grid-area: sb1;
+}
+
+.Sidebar2{
+    grid-area: sb2;
+}
+
+.Main{
+    grid-area: m;
 }

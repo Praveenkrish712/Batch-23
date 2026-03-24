@@ -115,3 +115,29 @@ vi - flex wrap - nowrap, wrap, wrap-reverse
 vii - align content (Y) (set the height) (flex wrap is enable) - start, center, end, space-Around, space-evenly, space-between 
 viii - flex on item - flex:1,2,3
 ix - order - Change the visual order of the property
+
+9) Grid (Display)
+i - Using Display:Grid; (No Change)
+ii - grid-template-columns: 300px 400px 500px;
+                          : 30% 40% 30%;
+                          : 1fr 2fr 1fr;
+                          : 200px 30% 1fr;
+                          : repeat(8,150px);
+                          : minmax(200px,1fr) 1fr 1fr;
+                          : repeat(3,minmax(200px,1fr));
+iii - grid-template-rows:  300px 400px 500px;
+                          : 30% 40% 30%;
+                          : 1fr 2fr 1fr;
+                          : 200px 30% 1fr;
+                          : repeat(8,150px);
+                          : minmax(200px,1fr) 1fr 1fr;
+                          : repeat(3,minmax(200px,1fr)); 
+iv - grid-column-start: 1; (Starting value)
+     grid-column-end: 4; (Ending value)   
+     grid-column: 1/4; (Starting value/Ending value) 
+     grid-column: span 3;
+v -  grid-template-areas: 
+                          "h h h h"
+                          "sb1 m m sb2"
+                          "f f f f"; 
+    grid-area : h, sb1, m, sb2, f                                                           
