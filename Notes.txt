@@ -170,3 +170,15 @@ Animation
     animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+
+10) Media Queries OR Responsive design
+==> apply Styles based on the device conditions
+==> Device type (Mobile, tablet, desktop)
+
+---> Mobile -      320px to 600px
+---> tablet -      601px to 800px 
+---> lap/desktop - above 801px
+
+@media screen and (max-width:size){
+       block of code
+}
